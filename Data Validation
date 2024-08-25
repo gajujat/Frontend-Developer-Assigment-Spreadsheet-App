@@ -1,0 +1,4 @@
+const handleChange = (index, value) => {
+  if (index === someIndex && isNaN(value)) return; // Example for numeric validation
+  updateCell(index, value);
+};
