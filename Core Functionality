@@ -1,0 +1,15 @@
+import { useState } from 'react';
+
+const Spreadsheet = () => {
+  const [cells, setCells] = useState(Array(1000).fill(""));
+
+  return (
+    <div className="grid grid-cols-10 gap-1">
+      {cells.map((cell, index) => (
+        <div key={index} className="border p-2">
+          {cell}
+        </div>
+      ))}
+    </div>
+  );
+};
