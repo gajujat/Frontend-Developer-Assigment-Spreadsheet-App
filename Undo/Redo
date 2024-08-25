@@ -1,0 +1,10 @@
+const [history, setHistory] = useState([]);
+const [redoStack, setRedoStack] = useState([]);
+
+const undo = () => {
+  // Undo logic...
+};
+
+const redo = () => {
+  // Redo logic...
+};
